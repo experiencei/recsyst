@@ -36,3 +36,51 @@ basket  = ["basketball" , 5];
 //Enum
 enum Size {Small = 1, Medium = 2, large = 3};
 let sizeName: number = Size.Medium
+
+//Any - !!!!!!! BE CAREFUL (ignoring all typescript function)
+let whatever: any = "experience";
+whatever = "experience";
+
+//void (function that doesn't return anything)
+let singlet = (): void => {
+    console.log("Whatever you log");
+}
+
+//never (doesn't have an endpoint)
+let error = (): never => {
+  throw new Error("ooops")
+}
+
+// interface (helps to create a new valid object like schema)
+
+interface RobotArmy {
+    count : number,
+    type : string ,
+    magic : string
+}
+
+let fightRobotArmy = (robots: RobotArmy) => {
+    console.log("Army Fights");
+}
+
+// Type assertion
+interface CatArmy {
+    count : number,
+    type : string ,
+    magic : string
+}
+
+let dog = {} as CatArmy
+dog.count
+
+//optional properties
+interface RatArmy {
+    count : number,
+    type : string ,
+    magic? : string
+}
+
+
+let fightRatArmy = (RatArmy : {count : 6 , type : "hello world"}) => {
+    console.log("Army Fights");
+}

@@ -32,3 +32,22 @@ var Size;
 })(Size || (Size = {}));
 ;
 var sizeName = Size.Medium;
+//Any - !!!!!!! BE CAREFUL (ignoring all typescript function)
+var whatever = "experience";
+whatever = "experience";
+//void (function that doesn't return anything)
+var singlet = function () {
+    console.log("Whatever you log");
+};
+//never (doesn't have an endpoint)
+var error = function () {
+    throw new Error("ooops");
+};
+var fightRobotArmy = function (robots) {
+    console.log("Army Fights");
+};
+var dog = {};
+dog.count;
+var fightRatArmy = function (RatArmy) {
+    console.log("Army Fights");
+};
