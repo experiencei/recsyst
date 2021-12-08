@@ -60,3 +60,16 @@ var fightRobotArmy4 = function (robots) {
     console.log("always return number");
     return 56;
 };
+//classes  (we can have both public & private properties)
+var Animal = /** @class */ (function () {
+    function Animal(sound) {
+        this.sing = "allalalal";
+        this.sing = sound;
+    }
+    Animal.prototype.greet = function () {
+        return "Hello ".concat(this.sing);
+    };
+    return Animal;
+}());
+var lion = new Animal("RAAAAWWWR");
+lion.sing;

@@ -95,3 +95,19 @@ let fightRobotArmy4 = (robots: {count : 6 , type : "hello world"}): number => {
     console.log("always return number");
     return 56
 }
+
+//classes  (we can have both public & private properties)
+class Animal {
+    public sing: string = "allalalal"
+    constructor(sound: string) {
+        this.sing = sound;
+    }
+
+ greet(): string {
+     return `Hello ${this.sing}`
+ }
+    
+}
+
+let lion = new Animal("RAAAAWWWR");
+lion.sing
