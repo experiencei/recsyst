@@ -85,3 +85,13 @@ let fightRatArmy = (robots :RatArmy) => {
     console.log("Army Fights");
 }
 fightRatArmy({count : 6 , type : "hello world"})
+
+// Function
+let fightRobotArmy3 = (robots: RobotArmy): void => {
+    console.log("What going on");
+}
+
+let fightRobotArmy4 = (robots: {count : 6 , type : "hello world"}): number => {
+    console.log("always return number");
+    return 56
+}

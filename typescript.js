@@ -52,3 +52,11 @@ var fightRatArmy = function (robots) {
     console.log("Army Fights");
 };
 fightRatArmy({ count: 6, type: "hello world" });
+// Function
+var fightRobotArmy3 = function (robots) {
+    console.log("What going on");
+};
+var fightRobotArmy4 = function (robots) {
+    console.log("always return number");
+    return 56;
+};
