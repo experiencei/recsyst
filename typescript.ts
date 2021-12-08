@@ -111,3 +111,6 @@ class Animal {
 
 let lion = new Animal("RAAAAWWWR");
 lion.sing
+
+//union
+let confused: string | number| boolean = true;

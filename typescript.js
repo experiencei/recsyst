@@ -73,3 +73,5 @@ var Animal = /** @class */ (function () {
 }());
 var lion = new Animal("RAAAAWWWR");
 lion.sing;
+//union
+var confused = true;
