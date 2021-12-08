@@ -79,8 +79,9 @@ interface RatArmy {
     type : string ,
     magic? : string
 }
+ 
 
-
-let fightRatArmy = (RatArmy : {count : 6 , type : "hello world"}) => {
+let fightRatArmy = (robots :RatArmy) => {
     console.log("Army Fights");
 }
+fightRatArmy({count : 6 , type : "hello world"})

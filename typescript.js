@@ -48,6 +48,7 @@ var fightRobotArmy = function (robots) {
 };
 var dog = {};
 dog.count;
-var fightRatArmy = function (RatArmy) {
+var fightRatArmy = function (robots) {
     console.log("Army Fights");
 };
+fightRatArmy({ count: 6, type: "hello world" });
