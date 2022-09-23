@@ -1,5 +1,3 @@
-CREDIT: Udemy course, "Building Recommender Systems with Machine Learning and AI", by Sundog Education by Frank Kane, Frank Kane
-
 # Recommender System
 ## 0. Recommender Engine Framework
 The architecture of the Recommender Engine building on top of surpriselib.
